@@ -1,0 +1,22 @@
+# Compiled executables and object files
+/target/
+
+# Rust-specific build artifacts
+**/*.rs.bk
+**/*.rlib
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+/Cargo.lock
+
+# Encrypted password database - CRITICAL TO IGNORE
+passwords.json.enc
